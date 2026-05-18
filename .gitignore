@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+mlruns/
+mlartifacts/
+\[exercise\] version-control.ipynb
