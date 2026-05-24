@@ -219,3 +219,7 @@ __marimo__/
 mlruns/
 mlartifacts/
 \[exercise\] version-control.ipynb
+mlruns/
+mlartifacts/
+mlflow.db
+model_utils/
