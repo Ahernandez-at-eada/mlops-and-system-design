@@ -9,6 +9,7 @@ Output JSON format:
 Run from the 'Class Exercise' folder:
     python server.py
 """
+
 import json
 import joblib
 import pandas as pd
