@@ -223,6 +223,5 @@ mlruns/
 mlartifacts/
 mlflow.db
 model_utils/
-session_4/models/
 session_4/Class Notes/
 session_4/Class Exercise/
