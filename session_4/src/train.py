@@ -17,10 +17,7 @@ def train_model(X: pd.DataFrame, y: pd.Series) -> DecisionTreeClassifier:
     """
     # Split into train and test
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y,
-        test_size=TEST_SIZE,
-        random_state=RANDOM_STATE,
-        stratify=y
+        X, y, test_size=TEST_SIZE, random_state=RANDOM_STATE, stratify=y
     )
 
     # Fill any remaining NaN values with the median (calculated only on train)
